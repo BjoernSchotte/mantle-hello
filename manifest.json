@@ -1,7 +1,7 @@
 {
   "id": "hello",
   "name": "Hallo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Beispiel mit allen drei Teilen: Hub-Uhr als Zustand, Gruß als Aktion, Panel im Hub, Kachel am TV.",
   "author": "mantle",
   "minHubVersion": "0.3.0",
