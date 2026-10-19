@@ -1,0 +1,14 @@
+{
+  "id": "hello",
+  "name": "Hallo",
+  "version": "1.0.0",
+  "description": "Beispiel mit allen drei Teilen: Hub-Uhr als Zustand, Gruß als Aktion, Panel im Hub, Kachel am TV.",
+  "author": "mantle",
+  "minHubVersion": "0.3.0",
+  "hub": { "entry": "hub/index.ts" },
+  "web": { "entry": "web/index.tsx" },
+  "api": "1.1.0",
+  "minHostVersion": "0.3.0",
+  "preferences": [{ "name": "greeting", "title": "Gruß", "type": "textfield", "scope": "hub", "default": "Hallo" }],
+  "commands": [{ "name": "clock", "title": "Hub-Uhr", "mode": "tile" }]
+}
